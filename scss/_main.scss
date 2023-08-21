@@ -1,0 +1,152 @@
+.main {
+    width: 1150px;
+    background: white;
+    padding: 50px 85px;
+}
+
+.wrapper-main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-menu {
+    display: flex;
+}
+
+.button-main-menu-text-red-line {
+    font-size: 12px;
+    padding: 5px 0;
+    margin-right: 40px;
+    border-bottom: 2px solid red;
+}
+
+.button-main-menu-text {
+    font-size: 12px;
+    padding: 5px 0;
+    margin-right: 40px;
+}
+
+.button-main-menu-text:hover {
+    color: red;
+}
+
+.box-main-categories {
+    display: flex;
+    margin: 15px 0;
+    padding-right: 5px;
+}
+
+.main-categories-text {
+    padding-right: 5px;
+}
+
+.main-categories-link {
+    padding-right: 5px;
+}
+
+.main-categories-link:hover {
+    color: red;
+}
+
+.button-full-hd {
+    font-size: 12px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    width: 50px;
+    text-align: center;
+}
+
+.main-plot-movie {    
+    width: 640px;
+}
+
+.main-plot-movie-text {
+    font-size: 16px;
+    margin: 15px 0;
+    line-height: 25px;
+}
+
+.main-icon-facebook-twitter {
+    display: flex;
+    justify-content: space-between;
+    width: 110px;
+    padding-bottom: 40px;
+}
+
+.facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5252d8;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #acacac;
+    border-radius: 2px;    
+}
+
+.facebook:hover {
+    color: white;
+    background: #5252d8;
+}
+
+.twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7cb4e8;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid #acacac;
+    border-radius: 2px;
+}
+
+.twitter:hover {
+    background: #7cb4e8;
+    color: white;
+}
+
+.main-info {
+    display: flex;
+    border-top: 1px solid #acacac;
+    width: 670px;
+}
+
+.main-devices-translation-subtitles {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    width: 670px;
+}
+
+.main-devices-title {
+    font-size: 12px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.box-main-devices-translation-subtitles {
+    margin-right: 50px;
+    width: calc(100% / 3);
+}
+
+.box-main-devices-list-column {
+    display: flex;
+    flex-direction: column;    
+}
+
+.box-main-devices-list {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.main-devices-link {
+    display: flex;
+    align-items: center;    
+}
+
+.main-devices-name {      
+    font-size: 12px;
+    margin-right: 5px;
+}
